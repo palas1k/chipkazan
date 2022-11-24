@@ -1,0 +1,117 @@
+{% load static %}
+
+
+<body>
+{% include 'inc/_header.html' %}
+
+
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Услуги</h2>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+
+<!-- Service Start -->
+<div class="service">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Услуги</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-gasoline.png' %}" width="70" vspace ="15"></img>
+                    <h3>Прошивка евро 2</h3>
+                    <p>Перепрошивка блока, отключение датчика кислорода</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-engine.png' %}" width="70" vspace ="15"></img>
+                    <h3>Диагностика автомобиля</h3>
+                    <p>На наличие ошибок и неисправностей</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-car.png' %}" width="70" vspace ="15"></img>
+                    <h3>Активация функций</h3>
+                    <p>Бортовой компьютер, блютус, противотуманные фары и тд</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-speed.png' %}" width="70" vspace ="15"></img>
+                    <h3>Stage 1</h3>
+                    <p>Увеличение мощности автомобиля</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-maintenance.png' %}" width="70" vspace ="15"></img>
+                    <h3>Прописывание нового блока в автомобиль</h3>
+                    <p>Для работы внештатных фар, магнитол и другого</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-speed.png' %}" width="70" vspace ="15"></img>
+                    <h3>Stage 2</h3>
+                    <p>Увеличение мощности автомобиля</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-adapt.png' %}" width="70" vspace ="15"></img>
+                    <h3>Адаптация робота</h3>
+                    <p>Обучение под новый диск сцепления, избавление от толчков и задумчивости коробки</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                    <img src="{% static 'img/icon-eco.png' %}" width="70" vspace ="15"></img>
+                    <h3>Отключение систем "экологии"</h3>
+                    <p>Отключение ЕГР, отключение систем мочевины, Евро 2, отключение сажевого фильтра</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+{% include 'inc/_footer.html' %}
+
+
+
+<!-- Back to top button -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- Pre Loader -->
+<div id="loader" class="show">
+    <div class="loader"></div>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'lib/easing/easing.min.js' %}"></script>
+<script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+<script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+<script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+
+<!-- Contact Javascript File -->
+<script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+<script src="{% static 'mail/contact.js' %}"></script>
+
+<!-- Template Javascript -->
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

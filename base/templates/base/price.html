@@ -1,0 +1,114 @@
+{% load static %}
+
+<body>
+{% include 'inc/_header.html' %}
+
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Цены на услуги</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<!-- price block -->
+<div class="price">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Стоимость</p>
+            <h2>Цена на услуги</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="price-item">
+                    <div class="price-header">
+                        <h3>Прошивка Евро 2</h3>
+                        <h4><span></span><strong>от 2000 ₽</strong><span></span></h4>
+                    </div>
+                    <div class="price-body">
+                        <ul>
+                            <li><i class="far fa-check-circle"></i>Диагностика авто</li>
+                            <li><i class="far fa-check-circle"></i>Подбор прошивки</li>
+                            <li><i class="far fa-check-circle"></i>"Подгон прошивки"</li>
+                            <li><i class="far fa-check-circle"></i>"Установка"</li>
+                        </ul>
+                    </div>
+                    <div class="price-footer">
+                        <a class="btn btn-custom" href="{% url 'contacts' %}">Записаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="price-item featured-item">
+                    <div class="price-header">
+                        <h3>Диагностика автомобиля</h3>
+                        <h4><span></span><strong>от 700 ₽</strong><span></span></h4>
+                    </div>
+                    <div class="price-body">
+                        <ul>
+                            <li><i class="far fa-check-circle"></i>Подключение к блоку</li>
+                            <li><i class="far fa-check-circle"></i>Считывание ошибок</li>
+                            <li><i class="far fa-check-circle"></i>Поиск неисправностей</li>
+                            <li><i class="far fa-check-circle"></i>Удаление ошибок</li>
+                        </ul>
+                    </div>
+                    <div class="price-footer">
+                        <a class="btn btn-custom" href="{% url 'contacts' %}">Записаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="price-item">
+                    <div class="price-header">
+                        <h3>Адаптация коробки</h3>
+                        <h4><span></span><strong>от 1000 ₽</strong><span></span></h4>
+                    </div>
+                    <div class="price-body">
+                        <ul>
+                            <li><i class="far fa-check-circle"></i>Подключение к блоку коробки</li>
+                            <li><i class="far fa-check-circle"></i>Проверка системы на ошибки</li>
+                            <li><i class="far fa-check-circle"></i>Сброс настроек</li>
+                            <li><i class="far fa-check-circle"></i>Адаптация коробки</li>
+                            <li><i class="far fa-check-circle"></i>Проверка работы коробки</li>
+                        </ul>
+                    </div>
+                    <div class="price-footer">
+                        <a class="btn btn-custom" href="{% url 'contacts' %}">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- price block end -->
+{% include 'inc/_footer.html' %}
+
+
+<!-- Back to top button -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- Pre Loader -->
+<div id="loader" class="show">
+    <div class="loader"></div>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'lib/easing/easing.min.js' %}"></script>
+<script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+<script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+<script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+
+<!-- Contact Javascript File -->
+<script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+<script src="{% static 'mail/contact.js' %}"></script>
+
+<!-- Template Javascript -->
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

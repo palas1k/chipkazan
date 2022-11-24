@@ -1,0 +1,77 @@
+{% load static %}
+{% include 'inc/_header.html' %}
+<body>
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>О нашей компании</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+
+<!-- About Start -->
+<div class="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                    <img src="{% static 'img/man.png' %}" alt="Image">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-header text-left">
+                    <p>О нас</p>
+                    <h2>Прошивка  диагностика авто</h2>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Занимаемся прошивкой и диагностикой автомобилей более 10 лет. Работаем со всеми известными марками
+                    </p>
+                    <ul>
+                        <li><i class="far fa-check-circle"></i>Диагностика</li>
+                        <li><i class="far fa-check-circle"></i>Прошивка</li>
+                        <li><i class="far fa-check-circle"></i>Адаптация</li>
+                        <li><i class="far fa-check-circle"></i>Активация скрытых функций</li>
+                        <li><i class="far fa-check-circle"></i>Отключение иммобилайзера</li>
+                    </ul>
+                    <a class="btn btn-custom" href="">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+{% include 'inc/_footer.html' %}
+
+<!-- Back to top button -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- Pre Loader -->
+<div id="loader" class="show">
+    <div class="loader"></div>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'lib/easing/easing.min.js' %}"></script>
+<script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+<script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+<script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+
+<!-- Contact Javascript File -->
+<script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+<script src="{% static 'mail/contact.js' %}"></script>
+
+<!-- Template Javascript -->
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
